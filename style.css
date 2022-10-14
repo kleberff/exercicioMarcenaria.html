@@ -1,0 +1,89 @@
+header {
+    background-color: gray;
+    height: 90px;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+
+}
+
+main {
+    height: 76vh;
+}
+
+header {
+
+    background-color: azure;
+    height: 90px;
+    padding: 10px;
+
+}
+
+
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+img {
+
+    height: 80px;
+    width: 80px;
+
+
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+}
+
+.fotos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    align-items: center;
+    height: 40vh;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+    align-items: flex-start;
+    height: 10vh;
+
+}
